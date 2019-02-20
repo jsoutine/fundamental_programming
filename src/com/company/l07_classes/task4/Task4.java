@@ -7,5 +7,6 @@ public class Task4 {
         Car otherCar = new Car("Fiat", 2015);
 
         System.out.println(myCar);
+        System.out.println(otherCar);
     }
 }
