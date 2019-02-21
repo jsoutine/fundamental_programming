@@ -135,9 +135,8 @@ public class Task1 {
         for (Contact c : contacts) {
             if (name.equals(c.getFirstName()) || name.equals(c.getLastName())) {
                 System.out.println("Result: \n" + c);
-            } else {
-                System.out.println("Sorry, couldn't find that dude.");
+                return;
             }
-        }
+        } System.out.println("Sorry, couldn't find that dude.");
     }
 }
